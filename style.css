@@ -1,0 +1,270 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 60vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url('images/bg.png');
+    background-size: cover;
+}
+.main
+{
+    height: 35rem;
+    /* width: 80vw; */
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    background-color: rgb(123, 123, 123);
+    border-radius: 2rem;
+}
+.left,.right
+{
+    height: 35rem;
+    width: 27rem;
+    background-color: #d2252a;
+}
+#blue
+{
+    font-size: 4rem;
+    text-shadow: 4px 4px 10px rgb(35, 4, 4);
+}
+#red,#yellow,#green
+{
+font-size: 1.7rem;
+text-shadow: 4px 4px 12px rgb(35, 4, 4);
+}
+.upper{
+
+    height: 6rem;
+    display: flex;
+    align-items: flex-end;
+    gap: 0.6rem;
+}
+#red,#yellow,#green
+{
+    margin-top: 0.3rem;
+    align-self: flex-start;
+}
+.left
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+     border-radius: 1rem;
+      border-bottom-right-radius: 3rem;
+      border: none;
+       
+   
+}
+.right
+{
+     
+    background-image: url('images/pokeball.png');
+    background-size: cover;
+     border-radius: 1rem;
+      border-bottom-left-radius: 3rem;
+      border: 1px solid black;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+     
+}
+.midd
+{
+    height: 18rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content
+{
+    height: 17rem;
+    width: 24rem;
+   background-color: rgb(208, 208, 208);
+    border: 0.9rem solid #ffffff;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-evenly;
+   align-items:center;
+    border-bottom-left-radius: 2rem;
+
+}
+.bottom
+{
+    height: 9rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+#plus
+{
+    font-size: 5rem;
+}
+.rec
+{
+    height: 3rem;
+    width: 5rem;
+    background-color: #3db14a;
+    border: 2px solid black;
+    border-radius: 0.5rem;
+}
+.info
+{
+    height: 10rem ;
+    width: 90%;
+  
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+  
+}
+.details
+{
+    height: 2rem;
+    display: flex;
+    gap:1rem;
+
+}
+span
+{
+    border:1px solid black;
+    padding: 0.3rem;
+    border-radius: 0.3rem;
+}
+.description
+{
+    height: 6.4rem;
+    width: 95%;
+    background-color: rgb(253, 252, 250);
+    border: 1px solid black;
+    border-radius: 0.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow-y: auto;
+}
+img
+{
+    height: 8rem;
+    width: 8rem;
+    background-color: white ;
+    border: 1px solid black;
+    border-radius: 0.5rem;
+  
+  
+}
+
+
+ #pokemon-list
+{
+    height: 33rem;
+    width: 95%;
+    
+    overflow-y: auto ;
+} 
+.pokemon-name
+{
+    background-color: rgb(247, 248, 248);
+    width: 60%;
+    height: 1.5rem;
+    margin: 0.5rem;
+    border: 1px solid black;
+    cursor: pointer;
+    padding: 3px;
+
+}
+.normal {
+    background-color: beige;
+    color: black;
+}
+
+.fire {
+    background-color: orange;
+    color: white;
+}
+
+.grass {
+    background-color: green;
+    color: white;
+}
+
+.water {
+    background-color: blue;
+    color: white;
+}
+
+.ice {
+    background-color: lightblue;
+    color: black;
+}
+
+.electric {
+    background-color: gold;
+    color: black;
+}
+
+.fighting {
+    background-color: darkred;
+    color: white;
+}
+
+.flying {
+    background-color: skyblue;
+    color: black;
+}
+
+.bug {
+    background-color: yellowgreen;
+    color: white;
+}
+
+.ghost {
+    background-color: purple;
+    color: white;
+}
+
+.rock {
+    background-color: sienna;
+    color: white;
+}
+
+.ground {
+    background-color: burlywood;
+    color: black;
+}
+
+.steel {
+    background-color: silver;
+    color: black;
+}
+
+.dark {
+    background-color: darkgray;
+    color: white;
+}
+
+.psychic {
+    background-color: palevioletred;
+    color: white;
+}
+
+.fairy {
+    background-color: pink;
+    color: black;
+}
+
+.dragon {
+    background-color: teal;
+    color: white;
+}
+
+.poison {
+    background-color: darkviolet;
+    color: white;
+}
